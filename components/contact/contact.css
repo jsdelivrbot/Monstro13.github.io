@@ -1,16 +1,7 @@
 .contact__item-logo {
 	float: left;
     padding: 7px;
-}
-.contact__item-value {
-	padding: 15px;
-	margin-left: 45px;
-}
-.contact__location-logo,
-.contact__mobile-logo,
-.contact__mail-logo, 
-.contact__vk-logo, 
-.contact__facebook-logo {
+	
 	.round-area--sub-area {
 		img {
 		    width: 16px;
@@ -18,4 +9,8 @@
     		padding: 7px;
 		}
 	}
+}
+.contact__item-value {
+	padding: 15px;
+	margin-left: 45px;
 }
