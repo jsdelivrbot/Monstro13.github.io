@@ -1,0 +1,14 @@
+include ../mixins/history-item
+
+.b-content__item.education
+	.education__top
+		.education__top-logo.b-content__logo
+			.round-area--big
+				img(src='./components/education/education.png')
+		.education__top-text.b-content__title-text
+			|Education
+	.education__bottom.clear-float
+		.history-items
+			+history('First', './components/education/icons/firstLogo.png', 'firstLogo', './components/education/icons/secondLogo.png', 'secondLogo', 'but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.')
+			+history('Second', './components/education/icons/firstLogo.png', 'firstLogo', './components/education/icons/secondLogo.png', 'secondLogo', 'but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.')
+			+history('Third', './components/education/icons/firstLogo.png', 'firstLogo', './components/education/icons/secondLogo.png', 'secondLogo', 'but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.')

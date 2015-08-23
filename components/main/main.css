@@ -7,3 +7,57 @@ body{
 	width: 1240px;
 	margin: auto;
 }
+
+.round-area {
+	width: 45px;
+	height: 45px;
+	background: #263238;
+	border-radius: 100%;
+	 
+	img {
+		width: 16px;
+		height: 16px;
+		padding: 15px;
+	}
+	
+	&--sub-area {
+		width: 30px;
+		height: 30px;
+		background: white;
+		border-radius: 100%;
+		
+		img {
+			width: 10px;
+			height: 14px;
+		}
+	}
+	
+	&--big {
+		width: 60px;
+		height: 60px;
+		background: #263238;
+		border-radius: 100%;
+		
+		img {
+			width: 25px;
+			height: 20px;
+			padding: 18px;
+			padding-top: 20px;
+		}
+	}
+}
+
+ul.stars {
+	list-style: none;
+	li.star {
+		float: left;
+		&:before {
+  			content: "\2605";
+			font-size: 26px;
+		}
+	}
+}
+
+.clear-float {
+	clear: both;
+}

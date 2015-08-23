@@ -31,32 +31,3 @@
 	font-size: 20px;
 	padding: 15px;
 }
-
-.round-area {
-	width: 45px;
-	height: 45px;
-	background: #263238;
-	border-radius: 100%;
-	 
-	img {
-		width: 16px;
-		height: 16px;
-		padding: 15px;
-	}
-	
-	&--sub-area {
-		width: 30px;
-		height: 30px;
-		background: white;
-		border-radius: 100%;
-		
-		img {
-			width: 10px;
-			height: 14px;
-		}
-	}
-}
-
-.clear-float {
-	clear: both;
-}
