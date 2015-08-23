@@ -7,209 +7,367 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./components/style.css">
   </head>
   <body>
-    <div class="main-container">
-      <div class="sidebar">
-        <div class="sidebar__top">
-          <div class="profile">
-            <div class="profile__image"><img src="./components/profile/profile.jpg" class="round-image"></div>
-            <div class="profile__name">Tcaregorodcev Vadim</div>
-            <div class="profile__position">Web - Developer</div>
+    <div class="main-container__wrapper">
+      <div class="main-container">
+        <div class="sidebar">
+          <div class="sidebar__top">
+            <div class="profile">
+              <div class="profile__image"><img src="./components/profile/profile.jpg" class="round-image"></div>
+              <div class="profile__name">Tcaregorodcev Vadim</div>
+              <div class="profile__position">Web - Developer</div>
+            </div>
+          </div>
+          <div class="sidebar__bottom">
+            <div class="sidebar__bottom-item about">
+              <div class="about__top">
+                <div class="about__top-logo sidebar__logo">
+                  <div class="round-area"><img src="./components/about/about.png"></div>
+                </div>
+                <div class="about__top-text sidebar__title-text">About me</div>
+              </div>
+              <div class="about__bottom clear-float">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                <p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+            </div>
+            <div class="sidebar__bottom-item contact">
+              <div class="contact__top">
+                <div class="contact__top-logo sidebar__logo">
+                  <div class="round-area"><img src="./components/contact/contact.png"></div>
+                </div>
+                <div class="contact__top-text sidebar__title-text">Contact me</div>
+              </div>
+              <div class="contact__bottom clear-float">
+                <div class="contact__items">
+                              <div class="contact__item">
+                                <div class="contact__item-logo">
+                                  <div class="round-area--sub-area"><img src="./components/contact/icons/contact.location.png"></div>
+                                </div>
+                                <div class="contact__item-value">Turgenev street 44, Taganrog, Russia</div>
+                              </div>
+                              <div class="contact__item">
+                                <div class="contact__item-logo">
+                                  <div class="round-area--sub-area"><img src="./components/contact/icons/contact.mobile.png"></div>
+                                </div>
+                                <div class="contact__item-value">8 (928) 601 17 28</div>
+                              </div>
+                              <div class="contact__item">
+                                <div class="contact__item-logo">
+                                  <div class="round-area--sub-area"><img src="./components/contact/icons/contact.mail.png"></div>
+                                </div>
+                                <div class="contact__item-value">vcaregorodcev@gmail.com</div>
+                              </div>
+                              <div class="contact__item">
+                                <div class="contact__item-logo">
+                                  <div class="round-area--sub-area"><img src="./components/contact/icons/vk.png"></div>
+                                </div>
+                                <div class="contact__item-value">vk.com/werawoolf</div>
+                              </div>
+                              <div class="contact__item">
+                                <div class="contact__item-logo">
+                                  <div class="round-area--sub-area"><img src="./components/contact/icons/facebook.png"></div>
+                                </div>
+                                <div class="contact__item-value">facebook.com/wadim.tsar</div>
+                              </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__bottom-item skills">
+              <div class="skills__top">
+                <div class="skills__top-logo sidebar__logo">
+                  <div class="round-area"><img src="./components/skills/skills.png"></div>
+                </div>
+                <div class="skills__top-text sidebar__title-text">My Skills</div>
+              </div>
+              <div class="skills__bottom clear-float">
+                <div class="skills__items">
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-javascript-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">JavaScript</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="57"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-angularjs-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">AngularJS</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="80"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-nodejs-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">Node.js</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="50"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-mongodb-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">MongoDb</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="60"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-html5-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">HTML5</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="65"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-css3-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">CSS3</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="55"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-bootstrap-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">Bootstrap</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="70"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-csharp-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">C#</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="67"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-git-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">Git</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="90"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-gulp-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">GulpJs</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="70"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-heroku-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">Heroku</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="60"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="skills__item">
+                                <div class="skills__item-logo">
+                                  <div class="round-area--sub-area"><i class="devicon-jquery-plain"></i></div>
+                                </div>
+                                <div class="skills__item-wrapper">
+                                  <div class="skills__item-value">JQuery</div>
+                                  <div class="skills__item-bar">
+                                    <progress max="100" value="66"></progress>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="sidebar__bottom">
-          <div class="sidebar__bottom-item about">
-            <div class="about__top">
-              <div class="about__top-logo sidebar__logo">
-                <div class="round-area"><img src="./components/about/about.png"></div>
+        <div class="b-content">
+          <div class="b-content__item experience">
+            <div class="experience__top">
+              <div class="experience__top-logo b-content__logo">
+                <div class="round-area--big"><img src="./components/experience/experience.png"></div>
               </div>
-              <div class="about__top-text sidebar__title-text">About me</div>
+              <div class="experience__top-text b-content__title-text">Work experience</div>
             </div>
-            <div class="about__bottom clear-float">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-              <p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="experience__bottom clear-float">
+              <div class="history-items">
+                          <div class="history-item">
+                            <div class="history-item__title">First</div>
+                            <div class="history-item__coordinates">
+                              <div class="history-item__location">
+                                <div class="history-item__location-logo"><img src="./components/experience/icons/firstLogo.png"></div>
+                                <div class="history-item__location-title">firstLogo</div>
+                              </div>
+                              <div class="history-item__terms">
+                                <div class="history-item__terms-logo"><img src="./components/experience/icons/secondLogo.png"></div>
+                                <div class="history-item__terms-title">secondLogo</div>
+                              </div>
+                            </div>
+                            <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
+                          </div>
+                          <div class="history-item">
+                            <div class="history-item__title">Second</div>
+                            <div class="history-item__coordinates">
+                              <div class="history-item__location">
+                                <div class="history-item__location-logo"><img src="./components/experience/icons/firstLogo.png"></div>
+                                <div class="history-item__location-title">firstLogo</div>
+                              </div>
+                              <div class="history-item__terms">
+                                <div class="history-item__terms-logo"><img src="./components/experience/icons/secondLogo.png"></div>
+                                <div class="history-item__terms-title">secondLogo</div>
+                              </div>
+                            </div>
+                            <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
+                          </div>
+                          <div class="history-item">
+                            <div class="history-item__title">Third</div>
+                            <div class="history-item__coordinates">
+                              <div class="history-item__location">
+                                <div class="history-item__location-logo"><img src="./components/experience/icons/firstLogo.png"></div>
+                                <div class="history-item__location-title">firstLogo</div>
+                              </div>
+                              <div class="history-item__terms">
+                                <div class="history-item__terms-logo"><img src="./components/experience/icons/secondLogo.png"></div>
+                                <div class="history-item__terms-title">secondLogo</div>
+                              </div>
+                            </div>
+                            <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
+                          </div>
+              </div>
             </div>
           </div>
-          <div class="sidebar__bottom-item contact">
-            <div class="contact__top">
-              <div class="contact__top-logo sidebar__logo">
-                <div class="round-area"><img src="./components/contact/contact.png"></div>
+          <div class="b-content__item education">
+            <div class="education__top">
+              <div class="education__top-logo b-content__logo">
+                <div class="round-area--big"><img src="./components/education/education.png"></div>
               </div>
-              <div class="contact__top-text sidebar__title-text">Contact me</div>
+              <div class="education__top-text b-content__title-text">Education</div>
             </div>
-            <div class="contact__bottom clear-float">
-              <div class="contact__items">
-                          <div class="contact__item">
-                            <div class="contact__item-logo">
-                              <div class="round-area--sub-area"><img src="./components/contact/icons/contact.location.png"></div>
+            <div class="education__bottom clear-float">
+              <div class="history-items">
+                          <div class="history-item">
+                            <div class="history-item__title">First</div>
+                            <div class="history-item__coordinates">
+                              <div class="history-item__location">
+                                <div class="history-item__location-logo"><img src="./components/education/icons/firstLogo.png"></div>
+                                <div class="history-item__location-title">firstLogo</div>
+                              </div>
+                              <div class="history-item__terms">
+                                <div class="history-item__terms-logo"><img src="./components/education/icons/secondLogo.png"></div>
+                                <div class="history-item__terms-title">secondLogo</div>
+                              </div>
                             </div>
-                            <div class="contact__item-value">Turgenev street 44, Taganrog, Russia</div>
+                            <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
                           </div>
-                          <div class="contact__item">
-                            <div class="contact__item-logo">
-                              <div class="round-area--sub-area"><img src="./components/contact/icons/contact.mobile.png"></div>
+                          <div class="history-item">
+                            <div class="history-item__title">Second</div>
+                            <div class="history-item__coordinates">
+                              <div class="history-item__location">
+                                <div class="history-item__location-logo"><img src="./components/education/icons/firstLogo.png"></div>
+                                <div class="history-item__location-title">firstLogo</div>
+                              </div>
+                              <div class="history-item__terms">
+                                <div class="history-item__terms-logo"><img src="./components/education/icons/secondLogo.png"></div>
+                                <div class="history-item__terms-title">secondLogo</div>
+                              </div>
                             </div>
-                            <div class="contact__item-value">8 (928) 601 17 28</div>
+                            <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
                           </div>
-                          <div class="contact__item">
-                            <div class="contact__item-logo">
-                              <div class="round-area--sub-area"><img src="./components/contact/icons/contact.mail.png"></div>
+                          <div class="history-item">
+                            <div class="history-item__title">Third</div>
+                            <div class="history-item__coordinates">
+                              <div class="history-item__location">
+                                <div class="history-item__location-logo"><img src="./components/education/icons/firstLogo.png"></div>
+                                <div class="history-item__location-title">firstLogo</div>
+                              </div>
+                              <div class="history-item__terms">
+                                <div class="history-item__terms-logo"><img src="./components/education/icons/secondLogo.png"></div>
+                                <div class="history-item__terms-title">secondLogo</div>
+                              </div>
                             </div>
-                            <div class="contact__item-value">vcaregorodcev@gmail.com</div>
-                          </div>
-                          <div class="contact__item">
-                            <div class="contact__item-logo">
-                              <div class="round-area--sub-area"><img src="./components/contact/icons/vk.png"></div>
-                            </div>
-                            <div class="contact__item-value">vk.com/werawoolf</div>
-                          </div>
-                          <div class="contact__item">
-                            <div class="contact__item-logo">
-                              <div class="round-area--sub-area"><img src="./components/contact/icons/facebook.png"></div>
-                            </div>
-                            <div class="contact__item-value">facebook.com/wadim.tsar</div>
+                            <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
                           </div>
               </div>
             </div>
           </div>
-          <div class="sidebar__bottom-item skills">
-            <div class="skills__top">
-              <div class="skills__top-logo sidebar__logo">
-                <div class="round-area"><img src="./components/skills/skills.png"></div>
+          <div class="b-content__item languages">
+            <div class="languages__top">
+              <div class="languages__top-logo b-content__logo">
+                <div class="round-area--big"><img src="./components/languages/languages.png"></div>
               </div>
-              <div class="skills__top-text sidebar__title-text">My Skills</div>
+              <div class="languages__top-text b-content__title-text">languages</div>
             </div>
-            <div class="skills__bottom clear-float">
-              <div class="skills__items">
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-javascript-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">JavaScript</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="57"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-angularjs-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">AngularJS</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="80"></progress>
-                              </div>
+            <div class="languages__bottom clear-float">
+              <div class="language-items">
+                          <div class="language-item">
+                            <div class="language-item__flag"><img src="./components/languages/flags/english.png"></div>
+                            <div class="language-item__name">english</div>
+                            <div class="language-item__competence">
+                              <ul class="stars">
+                                <li class="star"></li>
+                                <li class="star"></li>
+                              </ul>
                             </div>
                           </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-nodejs-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">Node.js</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="50"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-mongodb-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">MongoDb</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="60"></progress>
-                              </div>
+                          <div class="language-item">
+                            <div class="language-item__flag"><img src="./components/languages/flags/german.png"></div>
+                            <div class="language-item__name">german</div>
+                            <div class="language-item__competence">
+                              <ul class="stars">
+                                <li class="star"></li>
+                                <li class="star"></li>
+                                <li class="star"></li>
+                              </ul>
                             </div>
                           </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-html5-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">HTML5</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="65"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-css3-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">CSS3</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="55"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-bootstrap-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">Bootstrap</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="70"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-csharp-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">C#</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="67"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-git-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">Git</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="90"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-gulp-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">GulpJs</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="70"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-heroku-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">Heroku</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="60"></progress>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="skills__item">
-                            <div class="skills__item-logo">
-                              <div class="round-area--sub-area"><i class="devicon-jquery-plain"></i></div>
-                            </div>
-                            <div class="skills__item-wrapper">
-                              <div class="skills__item-value">JQuery</div>
-                              <div class="skills__item-bar">
-                                <progress max="100" value="66"></progress>
-                              </div>
+                          <div class="language-item">
+                            <div class="language-item__flag"><img src="./components/languages/flags/russian.png"></div>
+                            <div class="language-item__name">russian</div>
+                            <div class="language-item__competence">
+                              <ul class="stars">
+                                <li class="star"></li>
+                                <li class="star"></li>
+                                <li class="star"></li>
+                                <li class="star"></li>
+                                <li class="star"></li>
+                              </ul>
                             </div>
                           </div>
               </div>
@@ -217,163 +375,6 @@
           </div>
         </div>
       </div>
-      <div class="b-content">
-        <div class="b-content__item experience">
-          <div class="experience__top">
-            <div class="experience__top-logo b-content__logo">
-              <div class="round-area--big"><img src="./components/experience/experience.png"></div>
-            </div>
-            <div class="experience__top-text b-content__title-text">Work experience</div>
-          </div>
-          <div class="experience__bottom clear-float">
-            <div class="history-items">
-                      <div class="history-item">
-                        <div class="history-item__title">First</div>
-                        <div class="history-item__coordinates">
-                          <div class="history-item__location">
-                            <div class="history-item__location-logo"><img src="./components/experience/icons/firstLogo.png"></div>
-                            <div class="history-item__location-title">firstLogo</div>
-                          </div>
-                          <div class="history-item__terms">
-                            <div class="history-item__terms-logo"><img src="./components/experience/icons/secondLogo.png"></div>
-                            <div class="history-item__terms-title">secondLogo</div>
-                          </div>
-                        </div>
-                        <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
-                      </div>
-                      <div class="history-item">
-                        <div class="history-item__title">Second</div>
-                        <div class="history-item__coordinates">
-                          <div class="history-item__location">
-                            <div class="history-item__location-logo"><img src="./components/experience/icons/firstLogo.png"></div>
-                            <div class="history-item__location-title">firstLogo</div>
-                          </div>
-                          <div class="history-item__terms">
-                            <div class="history-item__terms-logo"><img src="./components/experience/icons/secondLogo.png"></div>
-                            <div class="history-item__terms-title">secondLogo</div>
-                          </div>
-                        </div>
-                        <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
-                      </div>
-                      <div class="history-item">
-                        <div class="history-item__title">Third</div>
-                        <div class="history-item__coordinates">
-                          <div class="history-item__location">
-                            <div class="history-item__location-logo"><img src="./components/experience/icons/firstLogo.png"></div>
-                            <div class="history-item__location-title">firstLogo</div>
-                          </div>
-                          <div class="history-item__terms">
-                            <div class="history-item__terms-logo"><img src="./components/experience/icons/secondLogo.png"></div>
-                            <div class="history-item__terms-title">secondLogo</div>
-                          </div>
-                        </div>
-                        <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
-                      </div>
-            </div>
-          </div>
-        </div>
-        <div class="b-content__item education">
-          <div class="education__top">
-            <div class="education__top-logo b-content__logo">
-              <div class="round-area--big"><img src="./components/education/education.png"></div>
-            </div>
-            <div class="education__top-text b-content__title-text">Education</div>
-          </div>
-          <div class="education__bottom clear-float">
-            <div class="history-items">
-                      <div class="history-item">
-                        <div class="history-item__title">First</div>
-                        <div class="history-item__coordinates">
-                          <div class="history-item__location">
-                            <div class="history-item__location-logo"><img src="./components/education/icons/firstLogo.png"></div>
-                            <div class="history-item__location-title">firstLogo</div>
-                          </div>
-                          <div class="history-item__terms">
-                            <div class="history-item__terms-logo"><img src="./components/education/icons/secondLogo.png"></div>
-                            <div class="history-item__terms-title">secondLogo</div>
-                          </div>
-                        </div>
-                        <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
-                      </div>
-                      <div class="history-item">
-                        <div class="history-item__title">Second</div>
-                        <div class="history-item__coordinates">
-                          <div class="history-item__location">
-                            <div class="history-item__location-logo"><img src="./components/education/icons/firstLogo.png"></div>
-                            <div class="history-item__location-title">firstLogo</div>
-                          </div>
-                          <div class="history-item__terms">
-                            <div class="history-item__terms-logo"><img src="./components/education/icons/secondLogo.png"></div>
-                            <div class="history-item__terms-title">secondLogo</div>
-                          </div>
-                        </div>
-                        <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
-                      </div>
-                      <div class="history-item">
-                        <div class="history-item__title">Third</div>
-                        <div class="history-item__coordinates">
-                          <div class="history-item__location">
-                            <div class="history-item__location-logo"><img src="./components/education/icons/firstLogo.png"></div>
-                            <div class="history-item__location-title">firstLogo</div>
-                          </div>
-                          <div class="history-item__terms">
-                            <div class="history-item__terms-logo"><img src="./components/education/icons/secondLogo.png"></div>
-                            <div class="history-item__terms-title">secondLogo</div>
-                          </div>
-                        </div>
-                        <div class="history-item__text clear-float">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.			</div>
-                      </div>
-            </div>
-          </div>
-        </div>
-        <div class="b-content__item languages">
-          <div class="languages__top">
-            <div class="languages__top-logo b-content__logo">
-              <div class="round-area--big"><img src="./components/languages/languages.png"></div>
-            </div>
-            <div class="languages__top-text b-content__title-text">languages</div>
-          </div>
-          <div class="languages__bottom clear-float">
-            <div class="language-items">
-                      <div class="language-item">
-                        <div class="language-item__flag"><img src="./components/languages/flags/english.png"></div>
-                        <div class="language-item__name">english</div>
-                        <div class="language-item__competence">
-                          <ul class="stars">
-                            <li class="star"></li>
-                            <li class="star"></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="language-item">
-                        <div class="language-item__flag"><img src="./components/languages/flags/german.png"></div>
-                        <div class="language-item__name">german</div>
-                        <div class="language-item__competence">
-                          <ul class="stars">
-                            <li class="star"></li>
-                            <li class="star"></li>
-                            <li class="star"></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="language-item">
-                        <div class="language-item__flag"><img src="./components/languages/flags/russian.png"></div>
-                        <div class="language-item__name">russian</div>
-                        <div class="language-item__competence">
-                          <ul class="stars">
-                            <li class="star"></li>
-                            <li class="star"></li>
-                            <li class="star"></li>
-                            <li class="star"></li>
-                            <li class="star"></li>
-                          </ul>
-                        </div>
-                      </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="clear-float"></div>
     </div>
   </body>
 </html>

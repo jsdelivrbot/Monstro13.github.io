@@ -2,12 +2,10 @@
 	width: 450px;
 	float: left;
 	color: white;
+	background: #37474f;
 }
 .sidebar__top {
 	background: #263238;
-}
-.sidebar__bottom {
-	background: #37474f;
 }
 .sidebar__bottom-item {
 	padding-top: 60px;

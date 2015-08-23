@@ -3,9 +3,15 @@ body{
 	padding: 0;
 	font-family: 'Helvetica Neue', sans-serif;
 }
-.main-container {
+
+.main-container__wrapper {
 	width: 1240px;
 	margin: auto;
+}
+
+.main-container {
+	float: left;
+	background: url(./main/background.png) repeat-y;
 }
 
 .round-area {

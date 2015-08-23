@@ -21,7 +21,7 @@
 }
 .language-item__competence {
 	ul.stars {
-		margin-top: -20px;
-    	margin-left: -21px;
+		width: 130px;
+    	margin: -5px auto auto -20px;
 	}
 }
